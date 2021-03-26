@@ -1,0 +1,332 @@
+body
+{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    color:#616161;
+}
+h2{
+    font-size:50px;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 700 !important;
+}
+h3{font-size:22px;}
+
+/* header */
+input{
+    text-align:center;
+    width:360px;
+    height:50px;
+}
+textarea{
+    width:750px;
+    height:200px;
+    text-align:center;
+}
+.header{
+    background-color:#ffffff;
+    height: 76px !important;
+  
+}
+.headerLogo{
+    text-align:left;
+    font-size:27px;
+    padding-top:20px;
+}
+.headerMenu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:30px;
+}
+.headerMenu p{
+    font-weight:500;
+    font-size:14px;
+}
+
+/* mainPart */
+.intro{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    width:100%;
+    height:80vh;
+
+    background-image: url("../img/slider.jpg") ;
+    background-position:center;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.introContainer p{
+    text-align:center;
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+}
+.introText{
+    font-size:60px;
+}
+.ourWorksBackground{
+    line-height: 58px;
+    
+    width:181px;
+    height:58px;
+    margin: 0 auto;
+    margin-top:62px;
+    border-radius: 30px;
+    background-color: #fc5f45;
+}
+.ourWorksBackground p {
+    font-size:16px;
+    color:white;
+}
+.circleContainer{
+    max-width:800px !important;
+}
+.circle {
+    text-align:center;
+}
+.imgCircle{
+    margin-top:82px;
+    margin-bottom:41px;
+}
+.circleP1 p{color:#38c695;}
+.circleP2 p{color:#a776e5;}
+.circleP3 p{color:#feb960;}
+
+
+/* aboutUs */
+.aboutUsBlock{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    margin:0 auto;
+    margin-top:158px;
+}
+.aboutUsBackground
+{
+    position:relative;
+    margin-left:-5vw;
+    width:650px;
+    height:555px;
+    background-color:white;
+    z-index:1;
+}
+.aboutUsWrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: inherit;
+    color:#959595;
+    max-width:80%;
+    margin:0 auto;
+}
+.aboutUsWrapper h2{
+    color:black;
+}
+.lineAboutUsBackground
+{
+    position:absolute;
+    bottom:0;
+    flex:1 0 auto;
+    height:5px;
+    width:100%;
+    background: linear-gradient(to right,
+    #fc5f45 25%,#38c695 25% 50%, #b27cf5 50% 75%, #feb960 75%);
+}
+
+/* ourFocus */
+.ourFocus *{
+    text-align:center;
+}
+.ourFocus h2{margin-top:35vh;}
+.ourFocus p{
+    font-weight:400;
+    color:#616161;
+    font-size:18px;
+    margin-top:4vh;
+    margin-bottom:10vh;
+}
+.wrapperFocus
+{
+    max-width:65%;
+    display:flex;
+    margin:0 auto;
+    justify-content:space-between;
+    flex-wrap:wrap;
+ 
+}
+.card{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    width:260px;
+    height: 320px;
+    background-color: black;
+    border:0 !important;
+}
+.card *{
+    
+    margin:0 auto;
+    text-align:center;
+    max-width:80%;
+}
+
+.card p{
+    font-size:15px;
+    font-weight: 400;
+    color:#959595;
+}
+.card img{
+    width:60px;
+    height:45px;
+}
+.oneLine{
+    height:3px;
+    width:100%;
+    margin-bottom:0 !important;
+}
+.oneLine1{background-color:#fc5f45}
+.oneLine2{background-color:#38c695}
+.oneLine3{background-color:#b27cf5}
+.oneLine4{background-color:#feb960}
+
+/* Explore */   
+.exploreBlock{
+    margin-top:60px;
+    height:500px;
+}
+.imgExplore{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(../img/BackExplore.png);
+    height:500px;
+    background-size:cover;
+}
+.imgExplore *{
+    color:white;
+    font-weight:400;
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}
+.explorePlay{
+    display:block;
+    margin-top:42px;
+    margin-bottom:42px;
+}
+/* Portfolio */
+.imgClass{
+    display:block !important;
+    margin:0 auto;
+    margin-top:15px;
+}
+
+
+/* -------- */
+.ourPortfolio *{
+    text-align:center;
+}
+.ourPortfolio h2{margin-top:15vh;}
+.ourPortfolio p{
+    font-weight:400;
+    color:#616161;
+    font-size:18px;
+    margin-top:4vh;
+    margin-bottom:10vh;
+}
+
+/* Our Team */
+.ourTeamCard{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    width:260px;
+    height: 350px;
+    background-color: white;
+    border:0 !important;
+    text-align:center;
+}
+.imgTeam{
+    width:263px;
+    height:270px;
+    max-width:100%;
+    max-height:80%;
+
+}
+
+/* AboutBennet */
+
+.aboutBennet{
+    margin:0 auto;
+    margin-top:120px;
+    margin-bottom:220px;
+    max-width:70% !important;
+}
+.connectionImg{
+    display:block !important;
+    text-align:center !important;
+}
+.socialContainer{
+    display:flex;
+    flex-direction: column;
+}
+.socialWrapper{
+    display:flex;
+    flex-direction: stretch;
+}
+/*footer*/
+.footerCont{
+    width:100%;
+    height:1300px;
+    background-color:#cccccc;
+}
+.footer{
+    text-align:center;
+    margin:0 auto;
+    padding-top:150px;
+}
+.wrapperInp1{
+    padding-top:80px;
+}
+.wrapperInp{
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width:750px;
+    margin-bottom:25px;
+}
+.alexisFooter{
+    position:relative;
+    width:1140;
+    max-width:100%;
+    height:230px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#3f4049;
+    margin-top:150px;
+}
+.wrapperAlexisFooter{
+    width:25%;
+    
+}
+.wrapperAlexisFooter p{
+    color:#fef4f2
+}
+.lineFooter{
+    bottom:0;
+    flex:1 0 auto;
+    height:5px;
+    width:100%;
+    background: linear-gradient(to right,
+    #fc5f45 25%,#38c695 25% 50%, #b27cf5 50% 75%, #feb960 75%); 
+}
+
+.footerTextColor2{color:#38c695}
+.footerTextColor3{color:#b27cf5}
+.footerTextColor4{color:#feb960}
