@@ -1,1 +1,0 @@
-# arsenSharifovLanding.github.io
